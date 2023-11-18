@@ -1,5 +1,7 @@
 :root {
     --teste: #000;
+    --text-color: #e0e0e0;
+    --text-color-secondary: #b8b8b8e6
 }
 
 * {
@@ -8,6 +10,4 @@
     margin: 0;
     list-style: none;
     text-decoration: none;
-    background-color: #121212;
-    color: #ffffffe6;
 }

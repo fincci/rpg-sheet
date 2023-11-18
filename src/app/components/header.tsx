@@ -9,20 +9,20 @@ export const Header = () => {
         <header>
             <nav>
                 <Menu>
-                    <MenuItens>
+                    <MenuIten>
                         <Link href="/home">
                             <DiceIcon width="35px" height="35px" />
                         </Link>
-                    </MenuItens>
-                    <MenuItens>
+                    </MenuIten>
+                    <MenuIten>
                         <Link href="/home">Home</Link>
-                    </MenuItens>
-                    <MenuItens>
+                    </MenuIten>
+                    <MenuIten>
                         <Link href="/home">Backstory</Link>
-                    </MenuItens>
-                    <MenuItens>
+                    </MenuIten>
+                    <MenuIten>
                         <Link href="/home">Story</Link>
-                    </MenuItens>
+                    </MenuIten>
                 </Menu>
             </nav>
         </header>
@@ -39,11 +39,15 @@ const Menu = styled.ul`
     gap: 50px;
 `;
 
-const MenuItens = styled.li`
+const MenuIten = styled.li`
     display: flex;
     cursor: pointer;
     transition: 0.2s;
-    &:hover {
+    color: var(--text-color);
+    a:hover {
         transform: scale(1.1);
+    }
+    a:visited {
+        color: var(--text-color);
     }
 `;
